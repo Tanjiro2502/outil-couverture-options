@@ -1,0 +1,14 @@
+# Dépendances de l'outil de gestion du risque d'un portefeuille d'options.
+# Versions vérifiées compatibles avec Python 3.14.
+# Installation : pip install -r requirements.txt
+
+streamlit==1.66.0
+plotly==7.1.0
+numpy==2.5.3
+scipy==1.18.1
+
+# Déjà installé avec Streamlit ; listé car app.py l'importe pour le tableau de saisie.
+pandas>=2.2
+
+# Utilisé uniquement pour lancer la suite de tests (pytest -v).
+pytest==9.1.1
