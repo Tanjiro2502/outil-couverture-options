@@ -1,7 +1,5 @@
 # Outil de couverture d'un portefeuille d'options
 
-![Tests](https://github.com/TON-PSEUDO-GITHUB/outil-couverture-options/actions/workflows/tests.yml/badge.svg)
-
 **Version en ligne : [outil-couverture-options-pc.streamlit.app](https://outil-couverture-options-pc.streamlit.app/)**, utilisable depuis un navigateur, sans rien installer.
 
 Pour un portefeuille d'options sur un même sous-jacent, l'outil indique immédiatement combien d'actions détenir pour le couvrir en delta, comment cette couverture évolue quand le marché bouge, où elle est la plus instable, et ce que coûte une couverture réajustée seulement de temps en temps. Projet de Master 2 MAS IREF, Université de Bordeaux, écrit en Python avec Streamlit et Plotly.
