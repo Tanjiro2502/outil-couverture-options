@@ -1,0 +1,6 @@
+# Environnement virtuel : propre à chaque ordinateur, il ne doit pas être versionné.
+.venv/
+
+# Fichiers générés automatiquement par Python et pytest.
+__pycache__/
+.pytest_cache/
