@@ -1,5 +1,4 @@
 # Outil de couverture d'un portefeuille d'options by Pierre Casagranda
-*Ce projet a été réalisé avec l'aide de Claude Opus 5.5
 
 **Version en ligne : [outil-couverture-options-pc.streamlit.app](https://outil-couverture-options-pc.streamlit.app/)**, utilisable depuis un navigateur, sans rien installer.
 
