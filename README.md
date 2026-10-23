@@ -1,4 +1,4 @@
-# Outil de couverture d'un portefeuille d'options by Pierre Casagranda
+# Outil de couverture d'un portefeuille d'options, par Pierre Casagranda
 
 **Version en ligne : [outil-couverture-options-pc.streamlit.app](https://outil-couverture-options-pc.streamlit.app/)**, utilisable depuis un navigateur, sans rien installer.
 
