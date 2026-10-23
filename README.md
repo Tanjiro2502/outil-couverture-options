@@ -40,7 +40,7 @@ On utilise `python -m streamlit` plutôt que `streamlit` : certains Windows bloq
 python -m pytest -v
 ```
 
-136 tests couvrent le pricing et les quatre grecques, avec et sans dividende (contre la parité call-put et des dérivées numériques), les signes des quatre positions, l'agrégation du portefeuille, les scénarios, le P&L, la couverture delta-gamma, la simulation Monte Carlo et ses coûts de transaction, la validation des saisies, les courbes, les zones d'instabilité et la cohérence des arrondis. Ils sont relancés automatiquement par GitHub à chaque modification du dépôt.
+136 tests couvrent le pricing et les quatre grecques, avec et sans dividende (contre la parité call-put et des dérivées numériques), les signes des quatre positions, l'agrégation du portefeuille, les scénarios, le P&L, la couverture delta-gamma, la simulation Monte Carlo et ses coûts de transaction, la validation des saisies, les courbes, les zones d'instabilité et la cohérence des arrondis.
 
 ## Structure du projet
 
