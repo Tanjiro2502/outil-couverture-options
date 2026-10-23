@@ -112,7 +112,7 @@ L'option de couverture apporte son propre vega et son propre theta. À maturité
 
 Black-Scholes suppose une couverture réajustée en continu. En pratique, on la réajuste à intervalles réguliers, et l'écart entre deux réajustements crée un P&L aléatoire. La simulation le mesure :
 
-1. 2 000 trajectoires de cours sont tirées selon un mouvement brownien géométrique, avec la volatilité réalisée choisie et une tendance égale au taux sans risque.
+1. 2 000 trajectoires de cours sont tirées selon un mouvement brownien géométrique, avec la volatilité réalisée choisie et une tendance égale au taux sans risque diminué du rendement du dividende.
 2. Sur chaque trajectoire, le portefeuille est couvert en delta exact, puis réajusté tous les jours, toutes les semaines ou tous les mois, le cash étant capitalisé au taux sans risque.
 3. Chaque ordre sur actions peut payer un coût de transaction, exprimé en points de base du montant échangé, à la mise en place et à chaque réajustement.
 4. Les trois fréquences sont comparées sur les mêmes trajectoires, et la graine aléatoire est fixée pour que les résultats soient reproductibles.
