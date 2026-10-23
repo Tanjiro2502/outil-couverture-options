@@ -51,7 +51,6 @@ python -m pytest -v
 | `app.py` | Interface Streamlit, une fonction par zone de l'écran, aucun calcul financier |
 | `requirements.txt` | Versions des bibliothèques |
 | `lancer_app.bat` | Lanceur Windows à double-cliquer |
-| `.github/workflows/tests.yml` | Tests automatiques sur GitHub |
 
 `options_risk.py` est découpé en dix sections : pricing, grecques, position, portefeuille, scénario, validation, courbes, couverture delta-gamma, simulation, analyse de scénario. Chaque onglet de l'interface obtient ses chiffres par un seul appel : `analyser_scenario`, `analyser_couverture_delta_gamma` et `simuler_couverture`.
 
